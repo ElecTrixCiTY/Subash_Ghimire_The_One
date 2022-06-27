@@ -105,3 +105,27 @@ h1{
 
 }
 }
+@media screen and (max-width:400px){
+    .structure{
+        height: 38vh;
+        width: 90%;
+        position: relative;
+        left: 5%;
+}
+.row{
+    margin-left: 0.8rem;
+}
+button{
+    font-size: 1.4rem;
+    width: 19%;
+    height: 10%;
+}
+.screen{
+  height: 5rem;
+  margin: 1.5rem 0.4rem;
+}
+h1{
+    margin-left: 5vw;
+}
+
+}
