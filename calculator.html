@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator Only for You!</title>
+  </head>
+  <link rel="stylesheet" href="calculator.css" />
+  <body>
+  <div class="intro">
+      <h1>Calculator Designed by <strong>Subash_The_One</strong></h1>
+  </div>
+    <div class="structure">
+      <div class="screen">
+        <p class="display"> </p>
+        
+      </div>
+      <div class="components">
+        <div class="row">
+          <button value="" onclick="display('Sorry!😅 Try Other')" class="c1">√</button>
+          <button value="**" onclick="display('**')" class="c2">x²</button>
+          <button value="/" onclick="display('/')" class="c3">/</button>
+          <button value="%" onclick="display('%')">%</button>      
+        </div>
+        <div class="row">
+          <button value="7" onclick="display('7')"  class="c5">7</button>
+          <button value="8" onclick="display('8')" class="c6">8</button>
+          <button value="9" onclick="display('9')" class="c7">9</button>
+          <button value="*" onclick="display('*')" class="c8">*</button>
+        </div>
+        <div class="row">
+          <button value="4" onclick="display('4')" class="c9">4</button>
+          <button value="5" onclick="display('5')" class="c10">5</button>
+          <button value="6" onclick="display('6')" class="c11">6</button>
+          <button value="-" onclick="display('-')" class="c12">-</button>
+        </div>
+        <div class="row">
+          <button value="1" onclick="display('1')" class="c13">1</button>
+          <button value="2" onclick="display('2')" class="c14">2</button>
+          <button  value="3" onclick="display('3')"class="c15">3</button>
+          <button  value="+" onclick="display('+')"class="c16">+</button>
+        </div>
+        <div class="row">
+          <button value="C" onclick="clearScreen()" class="c17">C</button>
+          <button value="0" onclick="display('0')" class="c18">0</button>
+          <button value="." onclick="display('.')" class="c19">.</button>
+          <button  value="n" onclick="calculate()" class="c20">=</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="calculator.js"></script>
+  </body>
+</html>
