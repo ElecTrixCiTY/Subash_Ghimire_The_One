@@ -107,7 +107,7 @@ h1{
 }
 @media screen and (max-width:400px){
     .structure{
-        height: 78vh;
+        height: 75vh;
         width: 90%;
         position: relative;
         left: 5%;
